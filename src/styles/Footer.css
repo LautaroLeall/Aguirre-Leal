@@ -1,0 +1,73 @@
+.footer {
+    background-color: var(--blanco);
+}
+
+.footer .title-footer {
+    font-family: var(--font-Chillax);
+    transition: 0.5s ease;
+    color: var(--azul);
+    font-size: 1.5rem;
+}
+
+.footer .subtitle-footer {
+    font-family: var(--font-Chillax);
+    transition: 0.5s ease;
+    color: var(--verde);
+    font-size: 1.3rem;
+}
+
+.footer .text-footer {
+    font-family: var(--font-Chillax);
+    color: var(--gris);
+    font-weight: 600;
+    font-size: 0.90rem;
+}
+
+.footer .link-footer {
+    font-family: var(--font-Chillax);
+    color: var(--azul);
+    font-weight: 600;
+    font-size: 1rem;
+    transition: 0.3s ease;
+}
+
+.footer .link-footer:hover {
+    color: var(--verde);
+    transition: 0.3s ease;
+}
+
+.footer .link-footer {
+    color: var(--azul);
+    transition: 0.3s ease;
+}
+
+/* INFO DEV */
+.footer .github {
+    transition: 0.3s ease;
+    color: var(--gris);
+}
+
+.footer .github:hover {
+    color: var(--azul);
+    transform: scale(0.95);
+    transition: 0.3s ease;
+}
+
+.footer .linkedin {
+    color: var(--gris);
+    transition: 0.3s ease;
+}
+
+.footer .linkedin:hover {
+    color: var(--azul);
+    transform: scale(0.95);
+    transition: 0.3s ease;
+}
+
+.footer .footer-dev {
+    font-family: var(--font-Chillax);
+    color: var(--gris);
+    font-weight: 600;
+    font-size: 0.90rem;
+    margin-top: 1rem;
+}

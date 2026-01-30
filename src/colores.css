@@ -1,0 +1,15 @@
+:root {
+    --verde: #127369;
+    --azul: #10403B;
+    --celeste: #8AA6A3;
+    --gris: #4C5958;
+    --blanco: #BFBFBF;
+    --font-Clash: 'Clash Display', sans-serif;
+    --font-Chillax: 'Chillax', sans-serif;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}

@@ -13,6 +13,8 @@ AOS.init({
   once: true,
 })
 
+import './colores.css'
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />

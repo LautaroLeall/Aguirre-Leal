@@ -1,4 +1,9 @@
-import { FaGavel, FaHandshake, FaBuilding, FaUserShield } from 'react-icons/fa'
+import {
+    FaGavel,
+    FaHandshake,
+    FaBuilding,
+    FaUserShield
+} from 'react-icons/fa'
 import '../styles/Services.css'
 
 export default function Services() {

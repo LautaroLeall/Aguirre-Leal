@@ -6,9 +6,9 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-lg fixed-top">
             <div className="container">
 
-                <a className="navbar-brand fw-bold fs-4 title-nav" href="#">
+                <a className="navbar-brand fw-bold fs-5 title-nav" href="#">
                     <FaBalanceScale className="me-2" />
-                    Aguirre & Leal  
+                    Abel Humberto Aguirre
                 </a>
 
                 <button
@@ -28,7 +28,7 @@ export default function Navbar() {
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="#nosotros">Sobre Nosotros</a>
+                            <a className="nav-link" href="#nosotros">Sobre Mi</a>
                         </li>
 
                         <li className="nav-item">

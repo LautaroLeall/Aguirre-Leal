@@ -8,7 +8,6 @@ export default function About() {
                 {/* Título */}
                 <div className="text-center mb-5">
                     <h2 className="title-about">Sobre Mi</h2>
-
                     <p className="subtitle-about">
                         Profesional comprometido con la excelencia jurídica
                     </p>
@@ -18,26 +17,18 @@ export default function About() {
 
                     {/* Abel */}
                     <div className="col-md-5" data-aos="fade-right">
-
                         <div className="card card-about border-0 shadow text-center p-4 h-100">
-
                             <img
                                 src="/abel-aguirre.png"
                                 alt="Abel Aguirre"
                                 className="img-about mx-auto mb-3"
                             />
-
                             <h5 className="name-card fw-bold mb-1">Dr. Abel Aguirre</h5>
-
                             <p className="text-card mb-2">Abogado</p>
-
                             <p className="subtext-card">
-                                Especialista en derecho penal y civil, con amplia
-                                experiencia en defensa jurídica y resolución de conflictos.
+                                Abogado con amplia experiencia en derecho de familia, penal, civil y previsional, comprometido con la defensa de sus clientes.
                             </p>
-
                         </div>
-
                     </div>
 
                     {/* María */}

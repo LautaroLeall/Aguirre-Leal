@@ -43,7 +43,7 @@
     font-family: var(--font-Chillax);
     color: var(--azul);
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     transition: 0.3s ease;
 }
 
@@ -61,10 +61,16 @@
         margin-top: 0.5rem;
     }
     .navbar .title-nav {
-        margin-left: 3rem;
+        margin-left: 1rem;
     }
     .navbar-collapse{
         margin-top: 1rem;
         border-top: 2px solid var(--verde);
+    }
+}
+
+@media (max-width: 380px) {
+    .navbar .title-nav {
+        margin-left: 0;
     }
 }

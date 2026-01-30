@@ -30,7 +30,7 @@ export default function Hero() {
                             transition={{ delay: 0.3, duration: 0.8 }}
                             className="text-hero mt-3"
                         >
-                            En Aguirre & Leal brindamos asesoramiento jurídico
+                            Abel Humberto Aguirre brinda asesoramiento jurídico
                             profesional, transparente y personalizado.
                         </motion.p>
 
@@ -57,7 +57,7 @@ export default function Hero() {
                             initial={{ opacity: 0, scale: 0.8 }}
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ delay: 0.2, duration: 0.8 }}
-                            src="/logo.png"
+                            src="/logo-estudio-juridico.png"
                             alt="Estudio Jurídico"
                             className="img-fluid img-hero"
                         />

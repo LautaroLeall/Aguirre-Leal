@@ -1,13 +1,14 @@
 import { FaBalanceScale } from 'react-icons/fa'
+import '../styles/Navbar.css'
 
 export default function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <nav className="navbar navbar-expand-lg fixed-top">
             <div className="container">
 
-                <a className="navbar-brand fw-bold" href="#">
+                <a className="navbar-brand fw-bold fs-4 title-nav" href="#">
                     <FaBalanceScale className="me-2" />
-                    Aguirre & Leal
+                    Aguirre & Leal  
                 </a>
 
                 <button
@@ -24,6 +25,10 @@ export default function Navbar() {
 
                         <li className="nav-item">
                             <a className="nav-link" href="#inicio">Inicio</a>
+                        </li>
+
+                        <li className="nav-item">
+                            <a className="nav-link" href="#nosotros">Sobre Nosotros</a>
                         </li>
 
                         <li className="nav-item">

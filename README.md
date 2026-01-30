@@ -1,17 +1,97 @@
-# React + Vite
+# ⚖️ Estudio Jurídico Aguirre
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sitio web profesional desarrollado para el estudio jurídico **Aguirre**, con el objetivo de brindar información clara, moderna y accesible sobre sus servicios legales y canales de contacto.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Características Principales
 
-## React Compiler
+- ✅ Diseño moderno y responsive
+- ✅ Interfaz clara y profesional
+- ✅ Información organizada por secciones
+- ✅ Contacto directo por WhatsApp, Email y Facebook
+- ✅ Optimizado para dispositivos móviles
+- ✅ Animaciones suaves con AOS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Aguirre-Leal
+- **React.js**
+- **Vite**
+- **Bootstrap 5**
+- **React Icons**
+- **AOS (Animate On Scroll)**
+- **CSS3**
+- **JavaScript (ES6+)**
+
+---
+
+## 📂 Estructura del Proyecto
+
+```
+/src
+ ├── assets
+ │   └── images
+ ├── components
+ │   ├── About.jsx
+ │   ├── BtnWhatsapp.jsx
+ │   ├── Contact.jsx
+ │   ├── Footer.jsx
+ │   ├── Hero.jsx
+ │   ├── Navbar.jsx
+ │   └── Services.jsx
+ │
+ ├── styles
+ │   ├── About.css
+ │   ├── BtnWhatsapp.css
+ │   ├── Contact.css
+ │   ├── Footer.css
+ │   ├── Hero.css
+ │   ├── Navbar.css
+ │   ├── Services.css
+ │
+ ├── App.jsx
+ ├── colores.css
+ └── main.jsx
+
+```
+
+---
+
+## 🌐 Ver Proyecto
+
+[![Estudio Jurídico Aguirre](https://img.shields.io/badge/Estudio%20Jurídico%20Aguirre-0D47A1?style=for-the-badge)](https://estudio-juridico-aguirre.netlify.app/)
+
+---
+
+## 🚀 Instalación y Uso
+
+### 1️⃣ Clonar el repositorio
+
+```bash
+git clone https://github.com/LautaroLeall/Abel-Aguirre.git
+```
+
+### 2️⃣ Instalar dependencias
+
+```bash
+npm install
+```
+
+### 3️⃣ Ejecutar en desarrollo
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎨 Diseño y Estilo
+
+- Tipografías personalizadas
+- Paleta de colores institucional
+- Iconografía coherente
+- Diseño limpio y profesional
+
+---

@@ -7,10 +7,10 @@ export default function About() {
 
                 {/* Título */}
                 <div className="text-center mb-5">
-                    <h2 className="title-about">Sobre Nosotros</h2>
+                    <h2 className="title-about">Sobre Mi</h2>
 
                     <p className="subtitle-about">
-                        Profesionales comprometidos con la excelencia jurídica
+                        Profesional comprometido con la excelencia jurídica
                     </p>
                 </div>
 
@@ -41,28 +41,21 @@ export default function About() {
                     </div>
 
                     {/* María */}
-                    <div className="col-md-5" data-aos="fade-left">
-
+                    {/* <div className="col-md-5" data-aos="fade-left">
                         <div className="card card-about border-0 shadow text-center p-4 h-100">
-
                             <img
                                 src="/maria.jpg"
                                 alt="María Pía Leal"
                                 className="img-about mx-auto mb-3"
                             />
-
                             <h5 className="name-card fw-bold mb-1">Dra. María Pía Leal</h5>
-
                             <p className="text-card mb-2">Abogada</p>
-
                             <p className="subtext-card">
                                 Especializada en derecho empresarial y laboral,
                                 brindando asesoramiento estratégico a empresas y particulares.
                             </p>
-
                         </div>
-
-                    </div>
+                    </div> */}
 
                 </div>
 

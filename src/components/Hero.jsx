@@ -13,7 +13,6 @@ export default function Hero() {
 
                     {/* Texto */}
                     <div className="col-md-6">
-
                         <motion.h1
                             initial={{ opacity: 0, x: -50 }}
                             animate={{ opacity: 1, x: 0 }}
@@ -52,7 +51,6 @@ export default function Hero() {
 
                     {/* Imagen */}
                     <div className="col-md-6 text-center mt-5 mt-md-0">
-
                         <motion.img
                             initial={{ opacity: 0, scale: 0.8 }}
                             animate={{ opacity: 1, scale: 1 }}
@@ -61,7 +59,6 @@ export default function Hero() {
                             alt="Estudio Jurídico"
                             className="img-fluid img-hero"
                         />
-
                     </div>
 
                 </div>

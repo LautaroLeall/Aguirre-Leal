@@ -1,0 +1,140 @@
+.contact {
+    border-top: 5px solid var(--blanco);
+    background-color: var(--gris);
+}
+
+.title-contact {
+    font-family: var(--font-Clash);
+    color: var(--blanco);
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.subtitle-contact {
+    font-family: var(--font-Chillax);
+    color: var(--blanco);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/* Banner */
+.container-banner .contact-banner {
+    background-color: var(--blanco);
+    font-family: var(--font-Clash);
+    color: var(--azul);
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+    border-radius: 5rem;
+    width: fit-content;
+}
+
+.card.card-contact {
+    background-color: var(--blanco);
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.info-item:hover {
+    color: var(--verde);
+    transform: scale(0.95);
+    transition: all 0.5s ease-in-out;
+}
+
+.info-email:hover,
+.info-phone:hover,
+.info-facebook:hover {
+    color: var(--verde);
+    transform: scale(0.95);
+    transition: all 0.5s ease-in-out;
+}
+
+/* Buttons */
+.btn-contact {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+/* Whatsapp */
+.btn-contact.whatsapp {
+    background: #25D366;
+}
+
+.btn-contact.whatsapp:hover {
+    background: #1ebe5c;
+}
+
+/* Gmail */
+.btn-contact.gmail {
+    background: #DB4437;
+}
+
+.btn-contact.gmail:hover {
+    background: #c63d32;
+}
+
+/* Facebook */
+.btn-contact.facebook {
+    background: #1877F2;
+}
+
+.btn-contact.facebook:hover {
+    background: #0f5ed7;
+}
+
+/* Location */
+.location-card {
+    margin-top: 2rem;
+    font-family: var(--font-Chillax);
+    color: var(--azul);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.location-icon {
+    font-size: 2rem;
+    color: var(--azul);
+    margin-bottom: 0.5rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 430px) {
+    .icon-contact {
+        display: none;
+    }
+
+    .info-item {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 5px;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+
+    .btn-contact {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        color: white;
+        transition: 0.3s ease;
+        text-decoration: none;
+    }
+}

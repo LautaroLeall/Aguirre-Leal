@@ -1,0 +1,63 @@
+.hero {
+    min-height: 100vh;
+    padding-top: 80px;
+    background-color: var(--celeste);
+}
+
+.hero .title-hero {
+    font-family: var(--font-Clash);
+    color: var(--azul);
+    font-weight: 900;
+}
+
+.hero .text-hero {
+    font-family: var(--font-Chillax);
+    color: var(--gris);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.btn.btn-consulta {
+    background-color: var(--verde);
+    color: var(--blanco);
+    font-family: var(--font-Clash);
+    font-weight: 900;
+}
+
+.btn.btn-consulta:hover {
+    background-color: var(--azul);
+}
+
+.btn.btn-servicios {
+    background-color: var(--blanco);
+    color: var(--verde);
+    font-family: var(--font-Clash);
+    font-weight: 900;
+}
+
+.btn.btn-servicios:hover {
+    background-color: var(--verde);
+}
+
+.hero .img-hero {
+    max-width: 100%;
+    width: 20rem;
+    height: auto;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .hero .img-hero {
+        width: 15rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .hero .img-hero {
+        width: 10rem;
+    }
+
+    .btn.btn-consulta {
+        margin-bottom: 1rem;
+    }
+}
